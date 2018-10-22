@@ -7,11 +7,13 @@ We intend to perform automatic identification of instrument classes from monopho
 
 ## Database
 
-We build our own audio database based on a selection from 130,000 midi files from public website as follows: 
-1. We select midi files that have been already labeled by one of the three instruments above.
-2. We then extract and saperate them either into single-track midi files (monophonic) or into multi-track midi files (polyphonic). 
-3. We use instrument sounds sampler, such as Kontakt 5, to render midi files into music.
+We build our own audio database based on a selection from 130,000 midi files as follows: 
+1. Select midi files that have been already labeled by 1~3 of the instruments above.
+2. Extract and saperate them either into single-track midi files (monophonic) or into multi-track midi files (polyphonic). 
+3. Use instrument sounds sampler, such as Kontakt 5, to render midi files into music.
 4. We label our data during the music generation process.
+
+Raw data retrived from https://www.reddit.com/r/WeAreTheMusicMakers/comments/3ajwe4/the_largest_midi_collection_on_the_internet/
 
 Midi:
 > A kind of file format, containing digital information of music
