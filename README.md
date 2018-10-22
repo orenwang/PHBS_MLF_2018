@@ -15,7 +15,7 @@ We build our own audio database based on a selection from 130,000 midi files fro
 
 Midi:
 
-![](midi_intro.png)
+![](midi_Intro.png)
 
 ```sh
 edit autoexec.bat
