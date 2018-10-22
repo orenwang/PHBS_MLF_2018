@@ -21,14 +21,11 @@ Midi:
 Instrument sampler
 > Make inputs like midi generate sound
 
-
 ## Importance
 
 1. Few music database are available for analysis use, mostly in the form of songs. Extracting more information from songs will significantly contribute to the industry.
 2. Bands, singers and studios spend tremendous time on making existing music back into scores or midi.
 3. A potential for automatic accompaniment generation.
-
-_For more examples and usage, please refer to the [Wiki][wiki]._
 
 ## Python Modules
 
@@ -37,4 +34,22 @@ Mido
 ```sh
 import mido
 ```
+
+## Group Memvers
+
+_Wang Haoran_
+_1701213100_
+_qwerjeff_
+
+_Zhe Wang_
+_1791213114_
+_dragonwdl_
+
+_Daniel Kwesi Wobil_
+_1701213207_
+_answob_
+
+_Yizhe Ren_
+_1701213087_
+_engerous_
 
