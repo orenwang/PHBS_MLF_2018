@@ -27,15 +27,21 @@ Instrument sampler
 2. Bands, singers and studios spend tremendous time on making existing music back into scores or midi.
 3. A potential for automatic accompaniment generation.
 
-## Python Modules
+## Tools
 
-Mido
+Mido - MIDI Objects for Python
 
 ```sh
 import mido
 ```
 
-## Group Memvers
+Scikit-learn
+
+fast.ai
+
+Kontact 5
+
+## Group Members
 
 _Wang Haoran_
 _1701213100_
