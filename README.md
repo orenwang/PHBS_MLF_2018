@@ -1,15 +1,21 @@
 # Instrument Classification Project
-> Classify instruments from audio via machine learning method.
+> Automatic instrument classification from music
 
-One to two paragraph statement about your product and what it does.
+We intend to perform automatic identification of instrument classes from monophonic and polyphonic music audio via machine learning method. We only focus on three different classes of instrument, which are piano, guitar and strings.
 
-![](header.png)
+
 
 ## Database
 
-We build our own audio database from 130,000 midi files bought from taobao.com. We label our data during the generation process with 3 different classes of instrument, which are piano, guitar and strings.
+We build our own audio database based on a selection from 130,000 midi files from public website as follows: 
+1. We select midi files that have been already labeled by one of the three instruments above.
+2. We then extract and saperate them either into single-track midi files (monophonic) or into multi-track midi files (polyphonic). 
+3. We use instrument sounds sampler, such as Kontakt 5, to render midi files into music.
+4. We label our data during the music generation process.
 
-Windows:
+Midi:
+
+![](midi_intro.png)
 
 ```sh
 edit autoexec.bat
