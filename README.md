@@ -15,22 +15,21 @@ Midi:
 _Raw data retrived from https://www.reddit.com/r/WeAreTheMusicMakers/comments/3ajwe4/the_largest_midi_collection_on_the_internet/_
 
 ### 2. Write scripts to control instruments, making '.mid' files into '.wav' files
-Reaper 5
+Use Reaper 5
 > Complete digital audio production application for computers
-
-Kontakt 6
+Use Kontakt 6
 > Make inputs like midi generate sound
-
-#### 150 single tracks to generate ~900 30s .wavs files.
+Generate music
+> 150 single tracks to generate ~900 30s .wavs files.
 图片
 
 ### 3. Extract features by frames, and save in a '.csv' file
 
-#### 3.1 Slice them by sampling rate = 10000, hop length = 250;
-#### 3.2 Get mean of MFCCs and their derivatives by seconds;
+> I.Slice them by sampling rate = 10000, hop length = 250;
+> II. Get mean of MFCCs and their derivatives by seconds;
 图片
-#### 3.3 Write '.csv' file with labels of three instrument classes;
-#### 3.4 Delete silent rows in '.csv' file.
+> III. Write '.csv' file with labels of three instrument classes;
+> IV. Delete silent rows in '.csv' file.
 
 ### 4. Run fastai tabular deep learning model on Alibaba Cloud
 
