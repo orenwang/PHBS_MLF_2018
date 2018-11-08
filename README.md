@@ -27,7 +27,7 @@ Use Kontakt 6
 > Make inputs like midi generate sound
 
 Generate music
-> 150 single tracks to generate ~900 30s .wavs files.
+> ~150 single tracks to generate ~1000 30s .wavs files.
 
 ![](reaper.png)
 
