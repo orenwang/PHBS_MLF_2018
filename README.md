@@ -5,23 +5,37 @@ We intend to perform automatic identification of instrument classes from monopho
 
 
 
-## Database
+## Data Preprocessing
+### 1. Extract single tracks from multi-track '.mid' files to new '.mid' files
 
-We build our own audio database based on a selection from 130,000 midi files as follows: 
-1. Select midi files that have been already labeled by 1~3 of the instruments above.
-2. Extract and saperate them either into single-track midi files (monophonic) or into multi-track midi files (polyphonic). 
-3. Use instrument sounds sampler, such as Kontakt 5, to render midi files into music.
-4. We label our data during the music generation process.
-
-Raw data retrived from https://www.reddit.com/r/WeAreTheMusicMakers/comments/3ajwe4/the_largest_midi_collection_on_the_internet/
 
 Midi:
 > A kind of file format, containing digital information of music
-
 ![](midi_Intro.png)
+_Raw data retrived from https://www.reddit.com/r/WeAreTheMusicMakers/comments/3ajwe4/the_largest_midi_collection_on_the_internet/_
 
-Instrument sampler
+### 2. Write scripts to control instruments, making '.mid' files into '.wav' files
+Reaper 5
+> Complete digital audio production application for computers
+
+Kontakt 6
 > Make inputs like midi generate sound
+
+#### 150 single tracks to generate ~900 30s .wavs files.
+图片
+
+### 3. Extract features by frames, and save in a '.csv' file
+
+#### 3.1 Slice them by sampling rate = 10000, hop length = 250;
+#### 3.2 Get mean of MFCCs and their derivatives by seconds;
+图片
+#### 3.3 Write '.csv' file with labels of three instrument classes;
+#### 3.4 Delete silent rows in '.csv' file.
+
+### 4. Run fastai tabular deep learning model on Alibaba Cloud
+
+
+
 
 ## Importance
 
@@ -32,16 +46,12 @@ Instrument sampler
 ## Tools
 
 Mido - MIDI Objects for Python
-
-```sh
-import mido
-```
-
+librosa
 Scikit-learn
-
-fast.ai
-
-Kontact 5
+fast.ai & pytorch
+```sh
+import mido, sklearn, fast.ai, librosa
+```
 
 ## Group Members
 
