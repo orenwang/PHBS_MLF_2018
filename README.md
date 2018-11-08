@@ -45,7 +45,7 @@ Generate music
 
 ![](silence_detection.png)
 
-### 4. Run fastai tabular deep learning model on Alibaba Cloud
+### 4. Alibaba Cloud: Run tabular deep learning model with fast.ai based on Pytorch
 
 
 
@@ -61,7 +61,7 @@ Generate music
 Mido - MIDI Objects for Python
 librosa
 Scikit-learn
-fast.ai & pytorch
+fast.ai & Pytorch
 ```sh
 import mido, sklearn, fast.ai, librosa
 ```
