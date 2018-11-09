@@ -221,7 +221,7 @@ learn.recorder.plot()
     
 
 
-![png](output_6_1.png)
+![png](output_6_2.png)
 
 
 
